@@ -18,7 +18,7 @@ jobs:
         run: node -v
 
       - name: Install dependecies
-        run: npm install next --save-dev
+        run: npm install --force
 
       - name: Test
         run: npm run test
