@@ -11,14 +11,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Check Node version
         run: node -v
 
       - name: Install dependecies
-        run: npm install
+        run: npm install next --save-dev
 
       - name: Test
         run: npm run test
