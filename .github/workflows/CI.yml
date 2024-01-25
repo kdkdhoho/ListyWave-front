@@ -8,12 +8,10 @@ on:
   workflow_dispatch:
 
   # Add the `pull_request` event, so that the workflow runs automatically every time a pull request is created or updated. For more information, see [`pull_request`](/actions/using-workflows/events-that-trigger-workflows#pull_request).
-  pull_request:
+  pull_request: ["dev", "main"]
 
   # Add the `push` event with the `branch` filter, so that the workflow runs automatically every time a commit is pushed to a branch called "main". For more information, see [`push`](/actions/using-workflows/events-that-trigger-workflows#push).
-  push:
-    branches:
-      - main
+  push: ["dev", "main"]
 
 # This modifies the default permissions granted to `GITHUB_TOKEN`. This will vary depending on the needs of your workflow. For more information, see "[AUTOTITLE](/actions/using-jobs/assigning-permissions-to-jobs)."
 permissions:
