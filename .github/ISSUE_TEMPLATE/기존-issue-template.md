@@ -2,7 +2,7 @@
 name: 기존 Issue Template
 about: 기존에 사용하던 Issue Template 입니다.
 title: ''
-labels: ''
+labels: 'feat'
 assignees: ''
 
 ---
