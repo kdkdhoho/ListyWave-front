@@ -1,8 +1,8 @@
 ---
 name: 이슈 템플릿
-about: 
-title: ''
-labels: ''
+about: ㅋ
+title: '1'
+labels: '2'
 assignees: ''
 
 ---
