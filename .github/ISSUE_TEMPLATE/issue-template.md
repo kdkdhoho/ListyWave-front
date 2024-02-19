@@ -1,11 +1,3 @@
----
-name: 이슈 템플릿
-about: ㅋ
-title: '1'
-labels: '2'
-assignees: ''
-
----
 
 ### 카테고리
 
